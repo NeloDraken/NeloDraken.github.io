@@ -11,11 +11,30 @@ body {
   position: relative;
 }
 
-#gameItem {
-  background-color: teal;
-  width: 50px;
-  height: 50px;
+#paddleL {
+  background-color: paleturquoise;
+  width: 8px;
+  height: 60px;
+  border-radius: 25%;
   position: absolute;
-/*   left: 100px; */  /* Uncomment if you want to set a "starting" position */
-/*   top: 100px;  */  /* Uncomment if you want to set a "starting" position */
+  left: 25px;
+  top: 175px;  
+}
+
+#paddleR {
+  background-color: lightcoral;
+  width: 8px;
+  height: 60px;
+  border-radius: 25%;
+  position: absolute;
+  left: 400px; 
+  top: 175px;  
+}
+#pongBall {
+  background-color: whitesmoke;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 212.5px; 
+  top: 200px;  
 }
